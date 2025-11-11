@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -26,6 +26,16 @@
 		4B3716862AE67BB0004812E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B3716852AE67BB0004812E8 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		9822D60A2EC3ACE4002CC733 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B3715ED2AE64FE6004812E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B3715F42AE64FE6004812E8;
+			remoteInfo = ThreadQA;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		3B559EF02D8D7EAB00E967B8 /* ThreadQA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreadQA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B3715FC2AE64FE8004812E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -46,10 +56,22 @@
 		4B3716712AE65BC3004812E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B3716832AE6773C004812E8 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B3716852AE67BB0004812E8 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		9822D6042EC3ACE4002CC733 /* ThreadQAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreadQAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		9822D6052EC3ACE4002CC733 /* ThreadQAUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = ThreadQAUITests; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		4B3715F22AE64FE6004812E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9822D6012EC3ACE4002CC733 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -64,6 +86,8 @@
 			children = (
 				4B3715F72AE64FE6004812E8 /* ThreadQA */,
 				3B559EF02D8D7EAB00E967B8 /* ThreadQA.app */,
+				9822D6042EC3ACE4002CC733 /* ThreadQAUITests.xctest */,
+				9822D6052EC3ACE4002CC733 /* ThreadQAUITests */,
 			);
 			sourceTree = "<group>";
 		};
@@ -136,6 +160,29 @@
 			productReference = 3B559EF02D8D7EAB00E967B8 /* ThreadQA.app */;
 			productType = "com.apple.product-type.application";
 		};
+		9822D6032EC3ACE4002CC733 /* ThreadQAUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9822D60C2EC3ACE4002CC733 /* Build configuration list for PBXNativeTarget "ThreadQAUITests" */;
+			buildPhases = (
+				9822D6002EC3ACE4002CC733 /* Sources */,
+				9822D6012EC3ACE4002CC733 /* Frameworks */,
+				9822D6022EC3ACE4002CC733 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9822D60B2EC3ACE4002CC733 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9822D6052EC3ACE4002CC733 /* ThreadQAUITests */,
+			);
+			name = ThreadQAUITests;
+			packageProductDependencies = (
+			);
+			productName = ThreadQAUITests;
+			productReference = 9822D6042EC3ACE4002CC733 /* ThreadQAUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -143,11 +190,15 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1500;
+				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					4B3715F42AE64FE6004812E8 = {
 						CreatedOnToolsVersion = 15.0;
+					};
+					9822D6032EC3ACE4002CC733 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 4B3715F42AE64FE6004812E8;
 					};
 				};
 			};
@@ -165,6 +216,7 @@
 			projectRoot = "";
 			targets = (
 				4B3715F42AE64FE6004812E8 /* ThreadQA */,
+				9822D6032EC3ACE4002CC733 /* ThreadQAUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -177,6 +229,13 @@
 				4B3716862AE67BB0004812E8 /* Main.storyboard in Resources */,
 				4B3716842AE6773C004812E8 /* LaunchScreen.storyboard in Resources */,
 				4B3715FD2AE64FE8004812E8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9822D6022EC3ACE4002CC733 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,7 +263,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9822D6002EC3ACE4002CC733 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9822D60B2EC3ACE4002CC733 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B3715F42AE64FE6004812E8 /* ThreadQA */;
+			targetProxy = 9822D60A2EC3ACE4002CC733 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		4B3716172AE64FE9004812E8 /* Debug */ = {
@@ -334,24 +408,29 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "";
-				DEVELOPMENT_TEAM = BMJHC22ENV;
+				DEVELOPMENT_TEAM = LH37QR6R86;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ThreadQA/Info.plist;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = threadqa.ThreadQA;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Maxim-Makarov.ThreadQA";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -366,27 +445,76 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "";
-				DEVELOPMENT_TEAM = BMJHC22ENV;
+				DEVELOPMENT_TEAM = LH37QR6R86;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ThreadQA/Info.plist;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = threadqa.ThreadQA;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Maxim-Makarov.ThreadQA";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9822D60D2EC3ACE4002CC733 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LH37QR6R86;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Maxim-Makarov.ThreadQAUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ThreadQA;
+			};
+			name = Debug;
+		};
+		9822D60E2EC3ACE4002CC733 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LH37QR6R86;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Maxim-Makarov.ThreadQAUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ThreadQA;
 			};
 			name = Release;
 		};
@@ -407,6 +535,15 @@
 			buildConfigurations = (
 				4B37161A2AE64FE9004812E8 /* Debug */,
 				4B37161B2AE64FE9004812E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9822D60C2EC3ACE4002CC733 /* Build configuration list for PBXNativeTarget "ThreadQAUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9822D60D2EC3ACE4002CC733 /* Debug */,
+				9822D60E2EC3ACE4002CC733 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

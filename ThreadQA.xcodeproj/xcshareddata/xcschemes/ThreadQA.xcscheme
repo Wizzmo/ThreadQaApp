@@ -33,7 +33,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4B78B5542AECE5B3004DEF64"
+               BlueprintIdentifier = "9822D6032EC3ACE4002CC733"
                BuildableName = "ThreadQAUITests.xctest"
                BlueprintName = "ThreadQAUITests"
                ReferencedContainer = "container:ThreadQA.xcodeproj">
