@@ -9,6 +9,8 @@ import XCTest
 
 final class ThreadQAUITests: XCTestCase {
     func testSumTwoNumbers() {
+        let app = XCUIApplication()
+        app.launch()
         var a = 5
         var b = 10
         var result = a + b
