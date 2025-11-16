@@ -38,4 +38,26 @@ final class ThreadQAUITests: XCTestCase {
         
         XCTAssertEqual(6, imagesCount)
     }
+    
+    func testUnsuccessAuth() {
+        let app = XCUIApplication()
+        app.launch()
+        
+        let emailField = app.textFields["emailField"]
+        emailField.tap()
+        emailField.typeText("123123")
+        
+        let passField = app.textFields["passField"]
+        passField.tap()
+        passField.typeText("cityslicka")
+        
+        let loginBtn = app.buttons["loginBtn"]
+        loginBtn.tap()
+        
+        app.alerts["Tap Again"].waitForExistence(timeout: 8.0)
+        
+        let isInvalidAlertExist = app.alerts.staticTexts["Invalid credentials"].exists
+        
+        XCTAssertTrue(isInvalidAlertExist)
+    }
 }
