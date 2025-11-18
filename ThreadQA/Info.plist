@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>kMDItemKeywords</key>
+	<string>Грузоперевозка, Freight Transportation, Жүк тасымалдау, Жүк ташуу, Բեռնափոխադրում, Yuk tashish, Грузоперевозки, Freight Transportations, Жүк ташуулар, բեռնափոխադրումներ, Yuk tashishlar, Перевозка, Shipment, Тасымалдау, Ташуу, փոխադրում, Tashish, Перевозки, Shipping, Ташуулар, փոխադրումներ, Tashishlar, Груз, Load, Жүк, բեռ, Yuk, Грузы, Loads, Жүктер, Жүктөр, բեռներ, Yuklar, Логистика, Logistics, լոգիստիկա, Logistika, Транспорт, Transportation, Көлік, трանսպորտ, Transport, Машина, Truck, Унаа, մեքենա, Mashina, Машины, Trucks, Машиналар, Унаалар, մեքենաներ, Mashinalar, ТС, Vehicle, КҚ, ТК, տմ, TV, Биржа, Freight Exchange, бորսа, Birja</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
