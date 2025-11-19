@@ -18,7 +18,6 @@ final class ThreadQAUITests: XCTestCase {
     }
     
     func testSuccessAuth() {
-        let app = XCUIApplication()
         app.launch()
         
         let emailField = app.textFields["emailField"]
@@ -40,7 +39,6 @@ final class ThreadQAUITests: XCTestCase {
     }
     
     func testUnsuccessAuth() {
-        let app = XCUIApplication()
         app.launch()
         
         let emailField = app.textFields["emailField"]
