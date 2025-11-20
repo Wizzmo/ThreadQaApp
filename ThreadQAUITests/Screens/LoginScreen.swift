@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import XCTest
 
 public class LoginScreen {
     lazy var emailField = app.textFields["emailField"]
@@ -14,12 +15,9 @@ public class LoginScreen {
     lazy var registerBtn = app.buttons["newUserBtn"]
     
     func auth(email: String, pass: String) -> HomeScreen {
-        emailField.tap()
-        emailField.typeText(email)
-        
-        passField.tap()
-        passField.typeText(pass)
-        
+        emailField.tapAndType(text: email)
+        passField.tapAndType(text: pass)
+
         loginBtn.tap()
         
         return HomeScreen()
