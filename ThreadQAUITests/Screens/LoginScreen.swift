@@ -22,4 +22,13 @@ public class LoginScreen {
         
         return HomeScreen()
     }
+    
+    func goToRegister() -> RegisterScreen {
+        registerBtn.tap()
+        return RegisterScreen()
+    }
+    
+    func isLoginScreen() -> Bool {
+       return  loginBtn.exists
+    }
 }

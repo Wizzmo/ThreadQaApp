@@ -9,3 +9,11 @@ import Foundation
 import XCTest
 
 let app = XCUIApplication()
+
+func waitElement(element: XCUIElement) -> XCUIElement {
+    if !element.waitForExistence(timeout: 8.0) {
+        XCTFail("Element not found: \(element.description)")
+    }
+    
+    return element
+}

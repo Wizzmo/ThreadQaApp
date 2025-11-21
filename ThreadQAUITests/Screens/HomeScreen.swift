@@ -8,5 +8,10 @@
 import Foundation
 
 public class HomeScreen {
+    lazy var profileBtn = app.buttons["Profile"]
     
+    func getImagesCount() -> Int {
+        waitElement(element: profileBtn)
+        return app.images.count
+    }
 }

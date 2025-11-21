@@ -8,6 +8,9 @@
 import XCTest
 
 final class ThreadQAUITests: XCTestCase {
+    private var loginScreen = LoginScreen()
+    
+    
     func testSumTwoNumbers() {
         let app = XCUIApplication()
         app.launch()
@@ -20,20 +23,11 @@ final class ThreadQAUITests: XCTestCase {
     func testSuccessAuth() {
         app.launch()
         
-        let emailField = app.textFields["emailField"]
-        emailField.tap()
-        emailField.typeText("eve.holt@reqres.in")
-        
-        let passField = app.textFields["passField"]
-        passField.tap()
-        passField.typeText("cityslicka")
-        
-        let loginBtn = app.buttons["loginBtn"]
-        loginBtn.tap()
-        
-        app.buttons["Profile"].waitForExistence(timeout: 8.0)
-        
-        let imagesCount = app.images.count
+        let imagesCount = loginScreen.auth(
+            email: "eve.holt@reqres.in",
+            pass: "cityslicka"
+        ).getImagesCount()
+
         
         XCTAssertEqual(6, imagesCount)
     }
