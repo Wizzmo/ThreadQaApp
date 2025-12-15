@@ -10,14 +10,15 @@ import XCTest
 final class ThreadQAUITests: XCTestCase {
     private var loginScreen = LoginScreen()
     
-    
-    func testSumTwoNumbers() {
-        let app = XCUIApplication()
+    func testSuccessRegister() {
         app.launch()
-        var a = 5
-        var b = 10
-        var result = a + b
-        XCTAssertEqual(15, result)
+        let registerScreen = loginScreen.goToRegister()
+        
+        var user = UserReg(firstName: "Max", lastName: "Makarov", email: "test@mail.ru", password: "12345678")
+        
+        registerScreen.setSubSwitcher(state: false)
+        registerScreen.fillFields(userModel: user)
+        registerScreen.clickOnRegister()
     }
     
     func testSuccessAuth() {
@@ -47,9 +48,7 @@ final class ThreadQAUITests: XCTestCase {
         loginBtn.tap()
         
         app.alerts["Tap Again"].waitForExistence(timeout: 8.0)
-        
         let isInvalidAlertExist = app.alerts.staticTexts["Invalid credentials"].exists
-        
         XCTAssertTrue(isInvalidAlertExist)
     }
 }
