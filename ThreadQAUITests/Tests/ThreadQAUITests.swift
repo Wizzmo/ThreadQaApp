@@ -25,8 +25,8 @@ final class ThreadQAUITests: XCTestCase {
         // Given - тестовые данные
         let alertTitle = "Try Again"
         let alertDescription = "Invalid credentials"
-        let email = "fakeEmail@mail.ru"
-        let password = "fakepassw"
+        let email = appHelper.randomString(length: 15)
+        let password = appHelper.randomString(length: 8)
         
         // When - Взаимодйствие с тестовыми данными
         loginScreen.auth(email: email, pass: password)
@@ -58,25 +58,31 @@ final class ThreadQAUITests: XCTestCase {
         
         let hasAlertDescription = appHelper.hasAlertDescription(text: "You have successfully registered!")
         XCTAssertTrue(hasAlertDescription)
-        
     }
     
-    func testUnsuccessAuth() {
-        let emailField = app.textFields["emailField"]
-        emailField.tap()
-        emailField.typeText("123123")
+    func testInvalidRegisterWrongEmail() {
+        let user = UserReg(firstName: "Max", lastName: "Makarov", email: "emailNoAt", password: "123456")
+        let registerScreen = loginScreen.goToRegister()
         
-        let passField = app.textFields["passField"]
-        passField.tap()
-        passField.typeText("cityslicka")
+        registerScreen.fillFields(userModel: user)
+        registerScreen.setSubSwitcher(state: true)
+        registerScreen.clickOnRegister()
+        appHelper.waitAlertWithText(text: "Alert!")
         
-        let loginBtn = app.buttons["loginBtn"]
-        loginBtn.tap()
+        let hasAlertDescription = appHelper.hasAlertDescription(text: "You cannot register!")
+        XCTAssertTrue(hasAlertDescription)
+    }
+    
+    func testInvalidRegisterEmptyOneOfFields() {
+        let user = UserReg(firstName: "Max", lastName: "Makarov", email: "test@mail.ru", password: "")
+        let registerScreen = loginScreen.goToRegister()
         
-        appHelper.waitAlertWithText(text: "Tap Again")
+        registerScreen.fillFields(userModel: user)
+        registerScreen.setSubSwitcher(state: false)
+        registerScreen.clickOnRegister()
+        appHelper.waitAlertWithText(text: "Alert!")
         
-        app.alerts["Tap Again"].waitForExistence(timeout: 8.0)
-        let isInvalidAlertExist = appHelper.hasAlertDescription(text: "Invalid credentials")
-        XCTAssertTrue(isInvalidAlertExist)
+        let hasAlertDescription = appHelper.hasAlertDescription(text: "You cannot register!")
+        XCTAssertTrue(hasAlertDescription)
     }
 }
