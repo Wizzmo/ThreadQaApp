@@ -9,6 +9,7 @@ import Foundation
 import XCTest
 
 let app = XCUIApplication()
+let appHelper = AppHelper()
 
 func waitElement(element: XCUIElement) -> XCUIElement {
     if !element.waitForExistence(timeout: 8.0) {
