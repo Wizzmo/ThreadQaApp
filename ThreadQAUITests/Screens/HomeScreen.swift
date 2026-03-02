@@ -14,4 +14,9 @@ public class HomeScreen {
         waitElement(element: profileBtn)
         return app.images.count
     }
+    
+    func openProfile() -> ProfileScreen {
+        waitElement(element: profileBtn).tap()
+        return ProfileScreen()
+    }
 }

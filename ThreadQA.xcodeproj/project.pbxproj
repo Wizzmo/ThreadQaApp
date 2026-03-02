@@ -24,6 +24,8 @@
 		4B3716662AE65892004812E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3716652AE65892004812E8 /* SceneDelegate.swift */; };
 		4B3716842AE6773C004812E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B3716832AE6773C004812E8 /* LaunchScreen.storyboard */; };
 		4B3716862AE67BB0004812E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B3716852AE67BB0004812E8 /* Main.storyboard */; };
+		98E3244B2F55EFA4002B517A /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E3244A2F55EFA4002B517A /* ImageDownloader.swift */; };
+		98E3244D2F55EFFB002B517A /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E3244C2F55EFFB002B517A /* NetworkHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		4B3716832AE6773C004812E8 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B3716852AE67BB0004812E8 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		9822D6042EC3ACE4002CC733 /* ThreadQAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreadQAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98E3244A2F55EFA4002B517A /* ImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
+		98E3244C2F55EFFB002B517A /* NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -136,6 +140,8 @@
 				4B3716352AE65224004812E8 /* Reachability.swift */,
 				4B3716372AE65231004812E8 /* Constants.swift */,
 				4B3716392AE65247004812E8 /* Utils.swift */,
+				98E3244A2F55EFA4002B517A /* ImageDownloader.swift */,
+				98E3244C2F55EFFB002B517A /* NetworkHelper.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -247,12 +253,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B3716312AE651F1004812E8 /* ProfileView.swift in Sources */,
+				98E3244B2F55EFA4002B517A /* ImageDownloader.swift in Sources */,
 				4B37163C2AE65264004812E8 /* HomeTableViewCell.swift in Sources */,
 				4B3716632AE65881004812E8 /* AppDelegate.swift in Sources */,
 				4B37162D2AE651CC004812E8 /* HomeView.swift in Sources */,
 				4B3716242AE65066004812E8 /* User.swift in Sources */,
 				4B3716662AE65892004812E8 /* SceneDelegate.swift in Sources */,
 				4B37163A2AE65247004812E8 /* Utils.swift in Sources */,
+				98E3244D2F55EFFB002B517A /* NetworkHelper.swift in Sources */,
 				4B37162F2AE651E1004812E8 /* AddNewUserView.swift in Sources */,
 				4B37162B2AE651B6004812E8 /* RegisterView.swift in Sources */,
 				4B3716362AE65224004812E8 /* Reachability.swift in Sources */,

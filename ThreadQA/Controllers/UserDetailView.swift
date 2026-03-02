@@ -34,8 +34,10 @@ class UserDetailViewController: UIViewController {
         
     }
     override func viewDidAppear(_ animated: Bool) {
-        userName.text = user!.first_name + "" + user!.last_name
+        userName.text = user!.first_name + " " + user!.last_name
         userEmail.text = user!.email
-        userImage.image = Downloader.downloadImageWithURL(url: user!.avatar)
+        
+        // Загрузка изображения с помощью extension
+        userImage.loadImage(from: user!.avatar)
     }
 }
