@@ -40,9 +40,9 @@ class ProfileViewController: UIViewController {
     
     func getUser()
     {
-        
-        let userURL = URL(string: BASE_URL+PERSON)!
-        let userRequest = URLRequest(url: userURL, cachePolicy: .reloadIgnoringLocalAndRemoteCacheData, timeoutInterval: 30)
+        guard let userRequest = NetworkHelper.createRequest(url: BASE_URL + PERSON, method: "GET") else {
+            return
+        }
         
         URLSession.shared.dataTask(with: userRequest){
             (data, response, error) in
@@ -71,11 +71,15 @@ class ProfileViewController: UIViewController {
         print("Got data!")
         hideIndicator()
         let user1 = try? JSONDecoder().decode(Result2.self, from: data)
-        print(user1!)
-        self.user = user1!.data
+        guard let decodedUser = user1 else {
+            return
+        }
+        print(decodedUser)
+        self.user = decodedUser.data
         firstNameLabel.text = user!.first_name
         lastNameLabel.text = user!.last_name
         emailLabel.text = user!.email
+        
         userImage!.image = Downloader.downloadImageWithURL(url: user!.avatar)
         print(user!.first_name)
         
