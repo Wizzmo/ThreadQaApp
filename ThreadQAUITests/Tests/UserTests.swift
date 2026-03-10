@@ -35,4 +35,21 @@ class UserTests: XCTestCase {
         XCTAssertEqual(lastName, "Weaver")
         XCTAssertTrue(hasImage)
     }
+    
+    func testLogOut() {
+        var isLogOuted = homeScreen.logOut().isLoginScreen()
+        XCTAssertTrue(isLogOuted)
+    }
+    
+    func testAddNewUser() {
+        let user = UserReg(firstName: "Boris", lastName: "Novikiv", email: "test2@mail.ru", password: "")
+        let userCountBefore = homeScreen.getImagesCount()
+        
+        let userCountAfter = homeScreen
+            .addNewUser()
+            .fillFields(user: user)
+            .getImagesCount()
+        XCTAssertNotEqual(userCountBefore, userCountAfter)
+        
+    }
 }
