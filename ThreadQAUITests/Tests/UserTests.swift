@@ -10,6 +10,7 @@ import XCTest
 class UserTests: XCTestCase {
     private var loginScreen = LoginScreen()
     private var homeScreen: HomeScreen!
+    private var serviceManager = ServiceManager()
     
     override func setUp() {
         super.setUp()
@@ -52,4 +53,23 @@ class UserTests: XCTestCase {
         XCTAssertNotEqual(userCountBefore, userCountAfter)
         
     }
+    
+    func testOpenRandomUser() {
+            let randomUser = getRandomUser()
+            let userDetail = homeScreen.openUser(textOrEmail: randomUser.email)
+            
+            let name = userDetail.getUserName()
+            let email = userDetail.getEmailField()
+            let hasImage = userDetail.isImageExist()
+            
+            XCTAssertEqual(email, randomUser.email)
+            XCTAssertEqual(name, randomUser.first_name + " " + randomUser.last_name)
+            XCTAssertTrue(hasImage)
+        }
+
+        private func getRandomUser() -> UserRequest {
+            let url = serviceManager.getUsers(page: 2)
+            let response = serviceManager.getRequest(resource: url, decodeType: RequestModel.self)
+            return response.data.randomElement()!
+        }
 }

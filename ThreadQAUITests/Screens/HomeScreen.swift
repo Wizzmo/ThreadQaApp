@@ -34,9 +34,9 @@ public class HomeScreen {
         return NewUserScreen()
     }
     
-    func openUser(textOrEmail: String) -> ProfileScreen {
+    func openUser(textOrEmail: String) -> UserDetailScreen {
         let user = users[textOrEmail]
         waitElement(element: user).tap()
-        return ProfileScreen()
+        return UserDetailScreen()
     }
 }
