@@ -1,0 +1,31 @@
+{
+  "configurations" : [
+    {
+      "id" : "2DC1E0ED-FE31-4E1C-B2E0-4E81B9522717",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "skippedTests" : [
+        "LoginTests\/testInvalidRegisterWrongEmail()",
+        "LoginTests\/testValidLoginCredentials()",
+        "LoginTests\/testValidRegister()",
+        "UserTests\/testAddNewUser()",
+        "UserTests\/testOpenRandomUser()"
+      ],
+      "target" : {
+        "containerPath" : "container:ThreadQA.xcodeproj",
+        "identifier" : "9822D6032EC3ACE4002CC733",
+        "name" : "ThreadQAUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

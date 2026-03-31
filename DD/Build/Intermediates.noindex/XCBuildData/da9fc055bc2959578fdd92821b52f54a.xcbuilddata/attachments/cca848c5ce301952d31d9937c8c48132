@@ -1,0 +1,149 @@
+{
+  "" : {
+    "diagnostics" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/ThreadQAUITests-primary.dia",
+    "emit-module-dependencies" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/ThreadQAUITests-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/ThreadQAUITests-primary-emit-module.dia",
+    "pch" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/ThreadQAUITests-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/ThreadQAUITests-primary.swiftdeps"
+  },
+  "/Users/makarov.m/Documents/Projects/ThreadQaApp/ThreadQAUITests/Extensions/XCUIElement.swift" : {
+    "const-values" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/XCUIElement.swiftconstvalues",
+    "dependencies" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/XCUIElement.d",
+    "diagnostics" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/XCUIElement.dia",
+    "index-unit-output-path" : "/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/XCUIElement.o",
+    "llvm-bc" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/XCUIElement.bc",
+    "object" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/XCUIElement.o",
+    "swift-dependencies" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/XCUIElement.swiftdeps",
+    "swiftmodule" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/XCUIElement~partial.swiftmodule"
+  },
+  "/Users/makarov.m/Documents/Projects/ThreadQaApp/ThreadQAUITests/Helpers/AppHelper.swift" : {
+    "const-values" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/AppHelper.swiftconstvalues",
+    "dependencies" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/AppHelper.d",
+    "diagnostics" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/AppHelper.dia",
+    "index-unit-output-path" : "/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/AppHelper.o",
+    "llvm-bc" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/AppHelper.bc",
+    "object" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/AppHelper.o",
+    "swift-dependencies" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/AppHelper.swiftdeps",
+    "swiftmodule" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/AppHelper~partial.swiftmodule"
+  },
+  "/Users/makarov.m/Documents/Projects/ThreadQaApp/ThreadQAUITests/Models/UserReg.swift" : {
+    "const-values" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/UserReg.swiftconstvalues",
+    "dependencies" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/UserReg.d",
+    "diagnostics" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/UserReg.dia",
+    "index-unit-output-path" : "/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/UserReg.o",
+    "llvm-bc" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/UserReg.bc",
+    "object" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/UserReg.o",
+    "swift-dependencies" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/UserReg.swiftdeps",
+    "swiftmodule" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/UserReg~partial.swiftmodule"
+  },
+  "/Users/makarov.m/Documents/Projects/ThreadQaApp/ThreadQAUITests/Models/UserReqres.swift" : {
+    "const-values" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/UserReqres.swiftconstvalues",
+    "dependencies" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/UserReqres.d",
+    "diagnostics" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/UserReqres.dia",
+    "index-unit-output-path" : "/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/UserReqres.o",
+    "llvm-bc" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/UserReqres.bc",
+    "object" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/UserReqres.o",
+    "swift-dependencies" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/UserReqres.swiftdeps",
+    "swiftmodule" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/UserReqres~partial.swiftmodule"
+  },
+  "/Users/makarov.m/Documents/Projects/ThreadQaApp/ThreadQAUITests/Networking/ServiceManager.swift" : {
+    "const-values" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/ServiceManager.swiftconstvalues",
+    "dependencies" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/ServiceManager.d",
+    "diagnostics" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/ServiceManager.dia",
+    "index-unit-output-path" : "/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/ServiceManager.o",
+    "llvm-bc" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/ServiceManager.bc",
+    "object" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/ServiceManager.o",
+    "swift-dependencies" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/ServiceManager.swiftdeps",
+    "swiftmodule" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/ServiceManager~partial.swiftmodule"
+  },
+  "/Users/makarov.m/Documents/Projects/ThreadQaApp/ThreadQAUITests/Screens/HomeScreen.swift" : {
+    "const-values" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/HomeScreen.swiftconstvalues",
+    "dependencies" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/HomeScreen.d",
+    "diagnostics" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/HomeScreen.dia",
+    "index-unit-output-path" : "/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/HomeScreen.o",
+    "llvm-bc" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/HomeScreen.bc",
+    "object" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/HomeScreen.o",
+    "swift-dependencies" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/HomeScreen.swiftdeps",
+    "swiftmodule" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/HomeScreen~partial.swiftmodule"
+  },
+  "/Users/makarov.m/Documents/Projects/ThreadQaApp/ThreadQAUITests/Screens/LoginScreen.swift" : {
+    "const-values" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/LoginScreen.swiftconstvalues",
+    "dependencies" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/LoginScreen.d",
+    "diagnostics" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/LoginScreen.dia",
+    "index-unit-output-path" : "/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/LoginScreen.o",
+    "llvm-bc" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/LoginScreen.bc",
+    "object" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/LoginScreen.o",
+    "swift-dependencies" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/LoginScreen.swiftdeps",
+    "swiftmodule" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/LoginScreen~partial.swiftmodule"
+  },
+  "/Users/makarov.m/Documents/Projects/ThreadQaApp/ThreadQAUITests/Screens/NewUserScreen.swift" : {
+    "const-values" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/NewUserScreen.swiftconstvalues",
+    "dependencies" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/NewUserScreen.d",
+    "diagnostics" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/NewUserScreen.dia",
+    "index-unit-output-path" : "/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/NewUserScreen.o",
+    "llvm-bc" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/NewUserScreen.bc",
+    "object" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/NewUserScreen.o",
+    "swift-dependencies" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/NewUserScreen.swiftdeps",
+    "swiftmodule" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/NewUserScreen~partial.swiftmodule"
+  },
+  "/Users/makarov.m/Documents/Projects/ThreadQaApp/ThreadQAUITests/Screens/ProfileScreen.swift" : {
+    "const-values" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/ProfileScreen.swiftconstvalues",
+    "dependencies" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/ProfileScreen.d",
+    "diagnostics" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/ProfileScreen.dia",
+    "index-unit-output-path" : "/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/ProfileScreen.o",
+    "llvm-bc" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/ProfileScreen.bc",
+    "object" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/ProfileScreen.o",
+    "swift-dependencies" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/ProfileScreen.swiftdeps",
+    "swiftmodule" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/ProfileScreen~partial.swiftmodule"
+  },
+  "/Users/makarov.m/Documents/Projects/ThreadQaApp/ThreadQAUITests/Screens/RegisterScreen.swift" : {
+    "const-values" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/RegisterScreen.swiftconstvalues",
+    "dependencies" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/RegisterScreen.d",
+    "diagnostics" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/RegisterScreen.dia",
+    "index-unit-output-path" : "/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/RegisterScreen.o",
+    "llvm-bc" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/RegisterScreen.bc",
+    "object" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/RegisterScreen.o",
+    "swift-dependencies" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/RegisterScreen.swiftdeps",
+    "swiftmodule" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/RegisterScreen~partial.swiftmodule"
+  },
+  "/Users/makarov.m/Documents/Projects/ThreadQaApp/ThreadQAUITests/Screens/UserDetailScreen.swift" : {
+    "const-values" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/UserDetailScreen.swiftconstvalues",
+    "dependencies" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/UserDetailScreen.d",
+    "diagnostics" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/UserDetailScreen.dia",
+    "index-unit-output-path" : "/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/UserDetailScreen.o",
+    "llvm-bc" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/UserDetailScreen.bc",
+    "object" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/UserDetailScreen.o",
+    "swift-dependencies" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/UserDetailScreen.swiftdeps",
+    "swiftmodule" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/UserDetailScreen~partial.swiftmodule"
+  },
+  "/Users/makarov.m/Documents/Projects/ThreadQaApp/ThreadQAUITests/Tests/BaseTest.swift" : {
+    "const-values" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/BaseTest.swiftconstvalues",
+    "dependencies" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/BaseTest.d",
+    "diagnostics" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/BaseTest.dia",
+    "index-unit-output-path" : "/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/BaseTest.o",
+    "llvm-bc" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/BaseTest.bc",
+    "object" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/BaseTest.o",
+    "swift-dependencies" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/BaseTest.swiftdeps",
+    "swiftmodule" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/BaseTest~partial.swiftmodule"
+  },
+  "/Users/makarov.m/Documents/Projects/ThreadQaApp/ThreadQAUITests/Tests/LoginTests.swift" : {
+    "const-values" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/LoginTests.swiftconstvalues",
+    "dependencies" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/LoginTests.d",
+    "diagnostics" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/LoginTests.dia",
+    "index-unit-output-path" : "/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/LoginTests.o",
+    "llvm-bc" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/LoginTests.bc",
+    "object" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/LoginTests.o",
+    "swift-dependencies" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/LoginTests.swiftdeps",
+    "swiftmodule" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/LoginTests~partial.swiftmodule"
+  },
+  "/Users/makarov.m/Documents/Projects/ThreadQaApp/ThreadQAUITests/Tests/UserTests.swift" : {
+    "const-values" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/UserTests.swiftconstvalues",
+    "dependencies" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/UserTests.d",
+    "diagnostics" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/UserTests.dia",
+    "index-unit-output-path" : "/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/UserTests.o",
+    "llvm-bc" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/UserTests.bc",
+    "object" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/UserTests.o",
+    "swift-dependencies" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/UserTests.swiftdeps",
+    "swiftmodule" : "/Users/makarov.m/Documents/Projects/ThreadQaApp/DD/Build/Intermediates.noindex/ThreadQA.build/Debug-iphonesimulator/ThreadQAUITests.build/Objects-normal/arm64/UserTests~partial.swiftmodule"
+  }
+}

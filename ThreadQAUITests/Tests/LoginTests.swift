@@ -18,13 +18,22 @@ final class LoginTests: XCTestCase {
     
     override func tearDown() {
         super.tearDown()
+        takeScreenshot()
         app.terminate()
+    }
+    
+    func takeScreenshot(name screenshotName: String? = nil) {
+        let screenshot = XCUIScreen.main.screenshot()
+        let attachment = XCTAttachment(screenshot: screenshot, quality: .original)
+        attachment.name = screenshotName ?? name + "_" + UUID().uuidString
+        attachment.lifetime = .keepAlways
+        add(attachment)
     }
     
     func testInvalidLoginCredentials() {
         // Given - тестовые данные
-        let alertTitle = "Try Again"
-        let alertDescription = "Invalid credentials"
+        let alertTitle = "Login Failed"
+        let alertDescription = "user not found"
         let email = appHelper.randomString(length: 15)
         let password = appHelper.randomString(length: 8)
         
