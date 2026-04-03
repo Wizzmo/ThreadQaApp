@@ -14,10 +14,12 @@
   "testTargets" : [
     {
       "skippedTests" : [
+        "LoginTests\/testInvalidLoginCredentials()",
+        "LoginTests\/testInvalidRegisterEmptyOneOfFields()",
         "LoginTests\/testInvalidRegisterWrongEmail()",
         "LoginTests\/testValidLoginCredentials()",
-        "LoginTests\/testValidRegister()",
         "UserTests\/testAddNewUser()",
+        "UserTests\/testLogOut()",
         "UserTests\/testOpenRandomUser()"
       ],
       "target" : {

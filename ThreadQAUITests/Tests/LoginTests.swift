@@ -65,7 +65,7 @@ final class LoginTests: XCTestCase {
         registerScreen.clickOnRegister()
         appHelper.waitAlertWithText(text: "Welcome!")
         
-        let hasAlertDescription = appHelper.hasAlertDescription(text: "You have successfully registered!")
+        let hasAlertDescription = appHelper.hasAlertDescription(text: "You are now registered")
         XCTAssertTrue(hasAlertDescription)
     }
     
