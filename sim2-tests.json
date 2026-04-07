@@ -1,0 +1,5 @@
+{
+    "ThreadQAUITests/UserTests/testLogOut": "0",
+    "ThreadQAUITests/LoginTests/testInvalidLoginCredentials": "0",
+    "ThreadQAUITests/LoginTests/testInvalidRegisterWrongEmail": "0"
+}

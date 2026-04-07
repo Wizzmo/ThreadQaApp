@@ -13,15 +13,6 @@
   },
   "testTargets" : [
     {
-      "skippedTests" : [
-        "LoginTests\/testInvalidLoginCredentials()",
-        "LoginTests\/testInvalidRegisterEmptyOneOfFields()",
-        "LoginTests\/testInvalidRegisterWrongEmail()",
-        "LoginTests\/testValidLoginCredentials()",
-        "UserTests\/testAddNewUser()",
-        "UserTests\/testLogOut()",
-        "UserTests\/testOpenRandomUser()"
-      ],
       "target" : {
         "containerPath" : "container:ThreadQA.xcodeproj",
         "identifier" : "9822D6032EC3ACE4002CC733",
