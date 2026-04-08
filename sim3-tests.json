@@ -1,5 +1,0 @@
-{
-    "ThreadQAUITests/UserTests/testAddNewUser": "0",
-    "ThreadQAUITests/LoginTests/testValidLoginCredentials": "0",
-    "ThreadQAUITests/LoginTests/testInvalidRegisterEmptyOneOfFields": "0"
-}
