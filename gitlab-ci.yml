@@ -1,0 +1,82 @@
+stages:
+  - prepare
+  - test
+  - export
+  - report
+
+variables:
+  LC_ALL: en_US.UTF-8
+  LANG: en_US.UTF-8
+  DEVICES: "iphoneFastlane16,iphoneFastlane15"
+  OUTPUT_DIR: "$CI_PROJECT_DIR/output_dir"
+  ALLURE_RESULTS: "allure-results"
+  ALLURE_REPORT: "allure-report"
+  PATH: "/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Users/opendrak/sdk/go1.23.5/bin/:/opt/homebrew/bin:$HOME/.rbenv/bin"
+
+prepare_tests:
+  stage: prepare
+  tags: 
+    - courseios
+  script:
+    - python3 script.py --devices "$DEVICES"
+    - echo "$DEVICES" | tr ',' '\n' > devices.txt
+    - mv *-tests.json fastlane
+  artifacts:
+    paths:
+      - devices.txt
+      - "$CI_PROJECT_DIR/fastlane/*-tests.json"
+
+build_app:
+  stage: prepare
+  tags: 
+    - courseios
+  script:
+    - fastlane build
+  artifacts:
+    paths:
+      - devices.txt
+      - "$CI_PROJECT_DIR/fastlane/*-tests.json"
+      - "$CI_PROJECT_DIR/DerivedData"
+
+run_tests:
+  tags: 
+    - courseios
+  stage: test
+  parallel:
+    matrix:
+      - DEVICE: ["iphoneFastlane16", "iphoneFastlane15"]
+  script:
+    - TEST_FILE="$CI_PROJECT_DIR/fastlane/${DEVICE}-tests.json"
+    - if [ ! -f "$TEST_FILE" ]; then echo "Test file $TEST_FILE not found!"; exit 1; fi
+    - fastlane test id:"$DEVICE" test_list:"$TEST_FILE" test_output:"$OUTPUT_DIR/$DEVICE"
+  artifacts:
+    when: always
+    paths:
+      - $OUTPUT_DIR
+
+export_results:
+  tags: 
+    - courseios
+  stage: export
+  parallel:
+    matrix:
+      - DEVICE: ["iphoneFastlane16", "iphoneFastlane15"]
+  script:
+    - ./xcresults export "$OUTPUT_DIR/$DEVICE/ThreadQA.xcresult" $ALLURE_RESULTS/$DEVICE
+  artifacts:
+    when: always
+    paths:
+      - "$ALLURE_RESULTS"
+
+generate_allure_report:
+  tags: 
+    - courseios
+  stage: report
+  script:
+    - ALLURE_UNION="allure_union"
+    - find $ALLURE_RESULTS -mindepth 1 -maxdepth 1 -type d -exec cp -r {}/ $ALLURE_UNION \;
+    - allure generate "$ALLURE_UNION" -o "$ALLURE_REPORT" --clean
+  artifacts:
+    when: always
+    paths:
+      - "$ALLURE_REPORT"
